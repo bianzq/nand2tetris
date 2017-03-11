@@ -50,6 +50,5 @@ CHIP DMux8Way {
 	
 	And (a=in,b=sel[0],out=hx);
 	And (a=sel[1],b=sel[2],out=hy);
-	And (a=hx,b=hy,out=h);
-		
+	And (a=hx,b=hy,out=h);		
 }
